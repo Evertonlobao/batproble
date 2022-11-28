@@ -20,6 +20,6 @@ echo deixe me te perguntar uma coisa
 echo voce esta me achando chato?
 echo nada persoal
 set/p "boring?=>"
-if %boring?%= sim start C:\Users\Vanderley\Desktop\batproble\app\pt-br\pc_access.bat
-if %boring?%= nao start C:\Users\Vanderley\Desktop\batproble\app\pt-br\normal_time.bat
+if %boring?%== sim start C:\Users\Vanderley\Desktop\batproble\app\pt-br\pc_access.bat
+if %boring?%== nao start C:\Users\Vanderley\Desktop\batproble\app\pt-br\normal_time.bat
 exit
